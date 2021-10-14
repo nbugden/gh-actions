@@ -1,3 +1,10 @@
+### [1.4.5](https://github.com/nbugden/gh-actions/compare/1.4.4...1.4.5) (2021-10-14)
+
+
+### Bug Fixes
+
+* actions checkout tag ([44e58a6](https://github.com/nbugden/gh-actions/commit/44e58a67874a044a6988f8e1c37ae19992859c66))
+
 ### [1.4.4](https://github.com/nbugden/gh-actions/compare/1.4.3...1.4.4) (2021-10-14)
 
 
