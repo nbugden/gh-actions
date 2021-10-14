@@ -1,3 +1,10 @@
+### [1.4.4](https://github.com/nbugden/gh-actions/compare/1.4.3...1.4.4) (2021-10-14)
+
+
+### Bug Fixes
+
+* prod deploy deps ([6107803](https://github.com/nbugden/gh-actions/commit/6107803ca97f5c0d0af0c42567dc47fb2dc052bb))
+
 ### [1.4.3](https://github.com/nbugden/gh-actions/compare/1.4.2...1.4.3) (2021-10-14)
 
 
