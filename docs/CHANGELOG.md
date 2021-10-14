@@ -1,3 +1,11 @@
+### [1.4.7](https://github.com/nbugden/gh-actions/compare/1.4.6...1.4.7) (2021-10-14)
+
+
+### CI/CD
+
+* update action to run on prerelease ([f6477db](https://github.com/nbugden/gh-actions/commit/f6477dbfe9a9b2fed3435a449771c68f0b72a24f))
+* update from draft to prerelease ([e843043](https://github.com/nbugden/gh-actions/commit/e843043d8f36ee372b046e3c8d5868a7f055f869))
+
 ### [1.4.6](https://github.com/nbugden/gh-actions/compare/1.4.5...1.4.6) (2021-10-14)
 
 
