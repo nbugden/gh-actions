@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.7
-      - name: Deploy to prod environment
+      - name: Deploy to production environment
         run: |
           git branch;
           echo deploying to prod;
