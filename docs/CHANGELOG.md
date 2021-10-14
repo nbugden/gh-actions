@@ -1,3 +1,5 @@
+### [1.16.1](https://github.com/nbugden/gh-actions/compare/1.16.0...1.16.1) (2021-10-14)
+
 ## [1.16.0](https://github.com/nbugden/gh-actions/compare/1.15.0...1.16.0) (2021-10-14)
 
 
