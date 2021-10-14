@@ -1,0 +1,3 @@
+# Application dependencies. Dependency repository: https://pypi.org/
+gunicorn==20.0.4
+Flask==1.1.2
