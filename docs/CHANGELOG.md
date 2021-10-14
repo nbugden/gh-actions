@@ -1,3 +1,15 @@
+## [1.8.0](https://github.com/nbugden/gh-actions/compare/1.7.0...1.8.0) (2021-10-14)
+
+
+### Features
+
+* app v2 route ([7ceacd7](https://github.com/nbugden/gh-actions/commit/7ceacd75bcd5733912ad072a3c912864d0b0502e))
+
+
+### Bug Fixes
+
+* app route v1 return ([3292853](https://github.com/nbugden/gh-actions/commit/32928538106ba8ab7701383297d23917cad6c012))
+
 ## [1.7.0](https://github.com/nbugden/gh-actions/compare/1.6.0...1.7.0) (2021-10-14)
 
 
