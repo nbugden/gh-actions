@@ -1,3 +1,10 @@
+### [1.4.3](https://github.com/nbugden/gh-actions/compare/1.4.2...1.4.3) (2021-10-14)
+
+
+### CI/CD
+
+* action for prod deploy on draft tag published ([814515d](https://github.com/nbugden/gh-actions/commit/814515d84e21818238c9fe069b0bc67979066486))
+
 ### [1.4.2](https://github.com/nbugden/gh-actions/compare/1.4.1...1.4.2) (2021-10-14)
 
 
