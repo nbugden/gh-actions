@@ -3,7 +3,7 @@
   "version": "1.13.0",
   "scripts": {
     "release": "release-it --ci",
-    "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease && git push --delete origin hotfix"
+    "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease && ./scripts/clean-up-hotfix.sh"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^3.3.0",

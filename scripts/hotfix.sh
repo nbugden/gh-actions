@@ -49,7 +49,3 @@ git branch --set-upstream-to=origin/hotfix hotfix
 # Cherry pick commit for deployment
 git cherry-pick $COMMIT;
 git push origin hotfix;
-
-# Clean up release branches
-git checkout main;
-git branch -D hotfix;
