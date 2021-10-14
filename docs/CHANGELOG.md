@@ -1,3 +1,10 @@
+### [1.15.1](https://github.com/nbugden/gh-actions/compare/1.15.0...1.15.1) (2021-10-14)
+
+
+### Bug Fixes
+
+* route 1 ([9dc5ea0](https://github.com/nbugden/gh-actions/commit/9dc5ea093c56b3595e3dee976c15915bd572b722))
+
 ## [1.15.0](https://github.com/nbugden/gh-actions/compare/1.14.0...1.15.0) (2021-10-14)
 
 
