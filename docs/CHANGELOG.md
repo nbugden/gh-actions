@@ -1,3 +1,11 @@
+### [1.4.6](https://github.com/nbugden/gh-actions/compare/1.4.5...1.4.6) (2021-10-14)
+
+
+### CI/CD
+
+* staging deploy ([1c136ee](https://github.com/nbugden/gh-actions/commit/1c136ee6e1e3c76f0d97f3691a5653bd5ba90e26))
+* update prod deploy action name ([20c68b7](https://github.com/nbugden/gh-actions/commit/20c68b75c06e10928907c9d8add7101cddf2606b))
+
 ### [1.4.5](https://github.com/nbugden/gh-actions/compare/1.4.4...1.4.5) (2021-10-14)
 
 

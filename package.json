@@ -1,6 +1,6 @@
 {
   "name": "data-platform",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "scripts": {
     "release": "release-it --ci"
   },
