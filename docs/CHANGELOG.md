@@ -1,3 +1,10 @@
+### [1.4.8](https://github.com/nbugden/gh-actions/compare/1.4.7...1.4.8) (2021-10-14)
+
+
+### Bug Fixes
+
+* production deploy only on release ([ba5868f](https://github.com/nbugden/gh-actions/commit/ba5868fc14ccb7ddd55a4af324bba81289905a40))
+
 ### [1.4.7](https://github.com/nbugden/gh-actions/compare/1.4.6...1.4.7) (2021-10-14)
 
 
