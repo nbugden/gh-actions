@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/nbugden/gh-actions/compare/1.9.0...1.10.0) (2021-10-14)
+
+
+### Features
+
+* app v1 ([7da7554](https://github.com/nbugden/gh-actions/commit/7da75540caeb777763d6a698095230f955982627))
+
 ## [1.9.0](https://github.com/nbugden/gh-actions/compare/1.8.2...1.9.0) (2021-10-14)
 
 
