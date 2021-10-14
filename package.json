@@ -3,7 +3,7 @@
   "version": "1.8.0",
   "scripts": {
     "release": "release-it --ci",
-    "hotfix": "./scripts/hotfix.sh && release-it --ci --github.preRelease=false"
+    "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^3.3.0",
