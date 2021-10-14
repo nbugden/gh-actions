@@ -26,6 +26,10 @@
           {
             "type": "chore",
             "section": "Maintenance"
+          },
+          {
+            "type": "ci",
+            "section": "CI/CD"
           }
         ]
       }
