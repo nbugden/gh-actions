@@ -1,9 +1,9 @@
 
 #!/bin/bash
 
-while getopts e:c: opt; do
+while getopts t:c: opt; do
   case $opt in
-    e) env=$OPTARG ;;
+    t) tag=$OPTARG ;;
     c) commit=$OPTARG ;;
     *)
       echo 'Error in command line parsing' >&2
@@ -13,23 +13,15 @@ done
 
 shift "$(( OPTIND - 1 ))"
 
-# Set and check clutch env
-if [ -z "$env" ]
+# Set and check tag to use as base for cherry pick
+if [ -z "$tag" ]
   then
-    read -p "Clutch Environment to deploy the hotfix (stage, prod): " CLUTCH_ENV;
+    read -p "Tag to use as the base for the hotfix: " LATEST_TAG;
   else
-    CLUTCH_ENV="$env";
+    LATEST_TAG="$env";
 fi
 
-if [[ "${CLUTCH_ENV}" == 'stage' || "${CLUTCH_ENV}" == 'prod' ]]
-  then
-    continue
-  else
-    echo "ERROR: $CLUTCH_ENV must be equal to \"stage\" or \"prod\".\nExiting deployment of hotfix.\n"
-    exit
-  fi;
-
-# Set and check branch/commit to cherry pick for deployment
+# Set and check the commit to cherry pick for deployment
 if [ -z "$commit" ]
   then
     read -p "Commit to cherry pick: " COMMIT;
@@ -42,21 +34,22 @@ if [[ $(git branch --contains $COMMIT) ]]
     echo "Commit found in $BRANCH";
     continue;
   else
-    echo "$BRANCH""Exiting Deployment of hotfix.\n"
+    echo "ERROR: cannot find commit to cherry-pick. Try running `git pull \&\& git pull --tags` before running the hotfix script. Exiting deployment of hotfix.\n"
     exit;
   fi;
+
 
 # Checkout the tagged version to add the commit
 git pull;
 git pull --tags;
-TAG_VERSION=$(git tag -l "${CLUTCH_ENV}*" --sort=-v:refname |head -n 1);
-echo "Checkout tag: ${TAG_VERSION}";
-git checkout -b ${CLUTCH_ENV} ${TAG_VERSION};
+echo "Checkout tag: ${LATEST_TAG}";
+git checkout -b hotfix ${LATEST_TAG};
+git branch --set-upstream-to=origin/hotfix hotfix
 
 # Cherry pick commit for deployment
 git cherry-pick $COMMIT;
-git push origin ${CLUTCH_ENV};
+git push origin hotfix;
 
 # Clean up release branches
 git checkout main;
-git branch -D ${CLUTCH_ENV};
+git branch -D hotfix;

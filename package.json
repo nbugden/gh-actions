@@ -2,7 +2,8 @@
   "name": "data-platform",
   "version": "1.6.0",
   "scripts": {
-    "release": "release-it --ci"
+    "release": "release-it --ci",
+    "hotfix": "./scripts/hotfix.sh && release-it --ci --github.preRelease=false"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^3.3.0",
