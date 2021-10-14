@@ -4,7 +4,7 @@
   },
   "github": {
     "release": true,
-    "draft": true
+    "preRelease": true
   },
   "npm": {
     "publish": false
