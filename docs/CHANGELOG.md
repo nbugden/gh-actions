@@ -1,3 +1,5 @@
+### [1.4.1](https://github.com/nbugden/gh-actions/compare/1.4.0...1.4.1) (2021-10-14)
+
 ## [1.4.0](https://github.com/nbugden/gh-actions/compare/1.3.1...1.4.0) (2021-10-14)
 
 
