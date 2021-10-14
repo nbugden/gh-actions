@@ -1,3 +1,10 @@
+### [1.5.2](https://github.com/nbugden/gh-actions/compare/1.5.1...1.5.2) (2021-10-14)
+
+
+### Bug Fixes
+
+* app route v1 return ([12dea19](https://github.com/nbugden/gh-actions/commit/12dea196fe943c524ba87d216a302ee384d46ee5))
+
 ### [1.5.1](https://github.com/nbugden/gh-actions/compare/1.5.0...1.5.1) (2021-10-14)
 
 
