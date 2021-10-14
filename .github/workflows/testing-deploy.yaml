@@ -20,7 +20,7 @@ jobs:
       - name: Deploy to testing environment
         run: |
           git branch;
-          echo deploying to stage;
+          echo deploying to test;
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
