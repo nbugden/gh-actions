@@ -1,3 +1,10 @@
+### [1.5.1](https://github.com/nbugden/gh-actions/compare/1.5.0...1.5.1) (2021-10-14)
+
+
+### Maintenance
+
+* checkin package lock ([e17aab5](https://github.com/nbugden/gh-actions/commit/e17aab581c43c15ad9db0460379c71a5e1000676))
+
 ## [1.5.0](https://github.com/nbugden/gh-actions/compare/1.4.8...1.5.0) (2021-10-14)
 
 
