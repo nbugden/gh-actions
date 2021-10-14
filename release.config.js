@@ -1,7 +1,7 @@
 const branches = [
-  "prod",
-  "stage",
-  "main"
+  {name: "prod", channel: "default"},
+  {name: "stage", channel: "stage"},
+  {name: "main", channel: "main"}
 ]
 
 let plugins = [
