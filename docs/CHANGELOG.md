@@ -1,3 +1,18 @@
+## [1.14.0](https://github.com/nbugden/gh-actions/compare/1.13.0...1.14.0) (2021-10-14)
+
+
+### Features
+
+* app route 2 ([c7d4626](https://github.com/nbugden/gh-actions/commit/c7d46263bc9c50a43cb147126cb90b663f75b3fd))
+
+
+### Bug Fixes
+
+* app route 1 return ([ebb50c9](https://github.com/nbugden/gh-actions/commit/ebb50c99f2af90e6d67a37728dc21fc44e3206fa))
+* hotfix release and clean up ([187ae4f](https://github.com/nbugden/gh-actions/commit/187ae4fb5ad3d7f3da8bf8513d37cb8616a3ad93))
+* hotfix set upstream ([2d83c75](https://github.com/nbugden/gh-actions/commit/2d83c7502232d66706e64dc3c021f37d33e501da))
+* typo deploy to stage ([35832ac](https://github.com/nbugden/gh-actions/commit/35832ac0442eed36b2bf4326a0d1a22552e5d379))
+
 ## [1.13.0](https://github.com/nbugden/gh-actions/compare/1.12.0...1.13.0) (2021-10-14)
 
 
