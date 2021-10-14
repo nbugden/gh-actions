@@ -48,7 +48,3 @@ git checkout -b hotfix ${LATEST_TAG};
 # Cherry pick commit for deployment
 git cherry-pick $COMMIT;
 git push --set-upstream origin hotfix;
-
-# Clean up release branches
-git checkout main;
-git branch -D hotfix;
