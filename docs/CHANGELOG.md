@@ -1,3 +1,10 @@
+### [1.8.2](https://github.com/nbugden/gh-actions/compare/1.8.1...1.8.2) (2021-10-14)
+
+
+### CI/CD
+
+* update hotfix to remove origin branch on release ([38968d1](https://github.com/nbugden/gh-actions/commit/38968d1e0992f4442915355d37d78c2bef172fb3))
+
 ### [1.8.1](https://github.com/nbugden/gh-actions/compare/1.8.0...1.8.1) (2021-10-14)
 
 
