@@ -63,3 +63,25 @@ jobs:
               echo "Running Tests for: ${eachfile}"
               tox -c ${eachfile}
             done;
+
+  infra:
+    needs: [unit_tests, linting, dependency-security]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_version: $TERRAFORM_VERSION
+      - name: Terraform Init
+        run: terraform -chdir=terraform init
+      - name: Terraform Plan
+        run: terraform -chdir=terraform plan
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  TERRAFORM_VERSION: 1.0.8
