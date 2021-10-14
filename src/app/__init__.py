@@ -18,10 +18,10 @@ def feature():
     # return f"New feature: {value == 2}"
 
 
-# @app.route('/feature2')
-# def feature2():
-#     value = 2+2
-#     return f"New feature2: {value == 4}"
+@app.route('/feature2')
+def feature2():
+    value = 2+2
+    return f"New feature2: {value == 4}"
 
 
 # Register blueprint(s)
