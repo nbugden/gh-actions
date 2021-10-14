@@ -1,3 +1,11 @@
+## [1.7.0](https://github.com/nbugden/gh-actions/compare/1.6.0...1.7.0) (2021-10-14)
+
+
+### Features
+
+* app route v1 ([92adc63](https://github.com/nbugden/gh-actions/commit/92adc6399bac7be03ebd7b731ed35ce08ae0ef19))
+* hotfix using npm run hotfix ([34b5b74](https://github.com/nbugden/gh-actions/commit/34b5b74650f34a51d3c17eca522807cccc3874c7))
+
 ## [1.6.0](https://github.com/nbugden/gh-actions/compare/1.5.1...1.6.0) (2021-10-14)
 
 
