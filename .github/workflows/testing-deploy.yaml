@@ -17,6 +17,16 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.7
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_version: $TERRAFORM_VERSION
+      - name: Terraform Init
+        run: terraform -chdir=terraform init
+      - name: Terraform Plan
+        run: terraform -chdir=terraform plan
+      - name: Terraform Apply
+        run: terraform -chdir=terraform apply --auto-approve
       - name: Deploy to testing environment
         run: |
           git branch;
@@ -24,3 +34,4 @@ jobs:
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  TERRAFORM_VERSION: ${{ secrets.TERRAFORM_VERSION }}
