@@ -1,3 +1,15 @@
+## [1.15.0](https://github.com/nbugden/gh-actions/compare/1.14.0...1.15.0) (2021-10-14)
+
+
+### Features
+
+* app v1 ([88982e1](https://github.com/nbugden/gh-actions/commit/88982e125697cce8466354761b8edd247bbde2d3))
+
+
+### Bug Fixes
+
+* hotfix clean up ([97113e1](https://github.com/nbugden/gh-actions/commit/97113e1d9be1525f91468be81e9b5752b089e48f))
+
 ## [1.14.0](https://github.com/nbugden/gh-actions/compare/1.13.0...1.14.0) (2021-10-14)
 
 
