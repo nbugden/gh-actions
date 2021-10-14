@@ -44,8 +44,11 @@ git pull;
 git pull --tags;
 echo "Checkout tag: ${LATEST_TAG}";
 git checkout -b hotfix ${LATEST_TAG};
-git branch --set-upstream-to=origin/hotfix hotfix
 
 # Cherry pick commit for deployment
 git cherry-pick $COMMIT;
-git push origin hotfix;
+git push --set-upstream origin hotfix;
+
+# Clean up release branches
+git checkout main;
+git branch -D hotfix;
