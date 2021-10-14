@@ -1,3 +1,10 @@
+### [1.8.1](https://github.com/nbugden/gh-actions/compare/1.8.0...1.8.1) (2021-10-14)
+
+
+### CI/CD
+
+* release ci arg for hotfix ([03e9871](https://github.com/nbugden/gh-actions/commit/03e9871ccb28a7cf5bc4cd68fcb65b71f9ab438d))
+
 ## [1.8.0](https://github.com/nbugden/gh-actions/compare/1.7.0...1.8.0) (2021-10-14)
 
 
