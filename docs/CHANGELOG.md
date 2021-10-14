@@ -4,5 +4,3 @@
 ### Features
 
 * release-it ([07ff53f](https://github.com/nbugden/gh-actions/commit/07ff53fc2c4eee6e799ba51269cbf29d5838e463))
-
-# Change Log
