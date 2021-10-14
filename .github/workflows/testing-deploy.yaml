@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -17,16 +17,28 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.7
+  terraform_init:
+    runs-on: ubuntu-latest
+    steps:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
         with:
           terraform_version: $TERRAFORM_VERSION
       - name: Terraform Init
         run: terraform -chdir=terraform init
+  terraform_plan:
+    runs-on: ubuntu-latest
+    steps:
       - name: Terraform Plan
         run: terraform -chdir=terraform plan
+  terraform_apply:
+    runs-on: ubuntu-latest
+    steps:
       - name: Terraform Apply
         run: terraform -chdir=terraform apply --auto-approve
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to testing environment
         run: |
           git branch;
