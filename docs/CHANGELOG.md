@@ -1,3 +1,10 @@
+## [1.13.0](https://github.com/nbugden/gh-actions/compare/1.12.0...1.13.0) (2021-10-14)
+
+
+### Features
+
+* app route 1 ([4bfd6c3](https://github.com/nbugden/gh-actions/commit/4bfd6c3d01778bb07d9aa30822b61813f700f5ff))
+
 ## [1.12.0](https://github.com/nbugden/gh-actions/compare/1.11.0...1.12.0) (2021-10-14)
 
 
