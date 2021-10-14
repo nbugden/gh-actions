@@ -1,3 +1,21 @@
+## [1.5.0](https://github.com/nbugden/gh-actions/compare/1.4.8...1.5.0) (2021-10-14)
+
+
+### Features
+
+* testing action workflow ([b38dc67](https://github.com/nbugden/gh-actions/commit/b38dc675c6009e9db10ebe6157013e48052cbaf3))
+
+
+### Maintenance
+
+* remove semantic release ([24153b4](https://github.com/nbugden/gh-actions/commit/24153b417729fa9025edde9e58da1ba2bd49e647))
+
+
+### CI/CD
+
+* update deploy step name production ([0325d61](https://github.com/nbugden/gh-actions/commit/0325d614f0ace61ef9e6146022df0cd2674ec826))
+* update deploy step name staging ([46f09b7](https://github.com/nbugden/gh-actions/commit/46f09b703ebecea24788bb21da324e368de13ec2))
+
 ### [1.4.8](https://github.com/nbugden/gh-actions/compare/1.4.7...1.4.8) (2021-10-14)
 
 
