@@ -37,7 +37,7 @@ jobs:
       - name: Terraform Apply
         run: terraform -chdir=terraform apply --auto-approve
   deploy:
-    needs: terraform_apply
+    needs: infra
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to testing environment
