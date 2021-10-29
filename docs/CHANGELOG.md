@@ -1,3 +1,16 @@
+## [3.0.0](https://github.com/nbugden/gh-actions/compare/2.0.0...3.0.0) (2021-10-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* removing api v1 with other commits
+
+* feat: api v2
+
+### Features
+
+* api v2 ([#5](https://github.com/nbugden/gh-actions/issues/5)) ([f6e2baf](https://github.com/nbugden/gh-actions/commit/f6e2bafe235f4c35f20682d408727a567643104b))
+
 ## [2.0.0](https://github.com/nbugden/gh-actions/compare/1.16.4...2.0.0) (2021-10-29)
 
 
