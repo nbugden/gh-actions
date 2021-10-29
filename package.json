@@ -1,6 +1,6 @@
 {
   "name": "data-platform",
-  "version": "1.16.3",
+  "version": "1.16.4",
   "scripts": {
     "release": "release-it --ci",
     "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease && ./scripts/clean-up-hotfix.sh"
