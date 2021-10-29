@@ -1,3 +1,28 @@
+### [1.16.2](https://github.com/nbugden/gh-actions/compare/1.16.1...1.16.2) (2021-10-29)
+
+
+### Bug Fixes
+
+* checkout for deploy job ([8311610](https://github.com/nbugden/gh-actions/commit/8311610705e93904710bfcd8b3e4fdba61629ae0))
+* ci deps ([671f848](https://github.com/nbugden/gh-actions/commit/671f8484638d69e0fb94b6c6453c998fb4a92c19))
+* rmeove v2 ([#3](https://github.com/nbugden/gh-actions/issues/3)) ([4476b87](https://github.com/nbugden/gh-actions/commit/4476b877f0c0d1d3ea386cf54c25c4102d458a5b))
+
+
+### Maintenance
+
+* add main.tf for testing ([521bece](https://github.com/nbugden/gh-actions/commit/521beceea5d242a86a53a737e1b86dee71607430))
+
+
+### CI/CD
+
+* add checkout step to jobs ([9c1eb14](https://github.com/nbugden/gh-actions/commit/9c1eb14ccb21c1237f9363bb26dff60d522d8cd5))
+* add deps to build steps ([c229079](https://github.com/nbugden/gh-actions/commit/c22907946e73b59669ef101fef531bbbe3ff5105))
+* add terraform to testing-deploy ([c1b4cdc](https://github.com/nbugden/gh-actions/commit/c1b4cdc6c286f94bc9db57485e79a33c6593a03a))
+* add tf to cicd action ([#2](https://github.com/nbugden/gh-actions/issues/2)) ([e75de50](https://github.com/nbugden/gh-actions/commit/e75de50e7c5f9ba3c2840a4e661c002e6dba7587))
+* collapse all terraform to infra ([d915c1d](https://github.com/nbugden/gh-actions/commit/d915c1d80a23b68ea23a0dc1f01ac647ced6a94a))
+* explicit steps for testing deploy ([2341ab3](https://github.com/nbugden/gh-actions/commit/2341ab37ff917c58b73f5895291ac9d4175747cc))
+* update terraform version to use hard coded value ([8816351](https://github.com/nbugden/gh-actions/commit/88163517462a4e4fecdd0430f79228ec42fbfcb1))
+
 ### [1.16.1](https://github.com/nbugden/gh-actions/compare/1.16.0...1.16.1) (2021-10-14)
 
 ## [1.16.0](https://github.com/nbugden/gh-actions/compare/1.15.0...1.16.0) (2021-10-14)
