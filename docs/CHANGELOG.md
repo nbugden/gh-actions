@@ -1,3 +1,10 @@
+### [3.0.1](https://github.com/nbugden/gh-actions/compare/3.0.0...3.0.1) (2021-11-09)
+
+
+### Maintenance
+
+* reset application ([#6](https://github.com/nbugden/gh-actions/issues/6)) ([6ecac14](https://github.com/nbugden/gh-actions/commit/6ecac14f08e8367250c487b273a959e876026a0f))
+
 ## [3.0.0](https://github.com/nbugden/gh-actions/compare/2.0.0...3.0.0) (2021-10-29)
 
 
