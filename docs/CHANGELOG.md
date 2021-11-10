@@ -1,3 +1,11 @@
+### [3.1.2](https://github.com/nbugden/gh-actions/compare/3.1.1...3.1.2) (2021-11-10)
+
+
+### Bug Fixes
+
+* conditional action step ([323f9e1](https://github.com/nbugden/gh-actions/commit/323f9e172c21d0337e659a65ba102e73bc67482c))
+* remove github.event from conditional ([113bc1c](https://github.com/nbugden/gh-actions/commit/113bc1c87e19a85b88cdb8f08221e75be802235a))
+
 ### [3.1.1](https://github.com/nbugden/gh-actions/compare/3.1.0...3.1.1) (2021-11-10)
 
 
