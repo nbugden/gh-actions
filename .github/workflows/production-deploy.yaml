@@ -1,26 +1,11 @@
 name: production-deploy
 
 on:
-  release:
-    types: [released]
+  push:
+    branches: [main]
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-          ref: ${{ github.ref }}
-      - name: Set up Python 3.7
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.7
-      - name: Deploy to production environment
-        run: |
-          git branch;
-          echo deploying to prod;
-
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  build:
+    uses: nbugden/gh-actions/.github/workflows/build.yaml@main
+    secrets:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
