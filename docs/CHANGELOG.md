@@ -1,3 +1,10 @@
+### [3.1.3](https://github.com/nbugden/gh-actions/compare/3.1.2...3.1.3) (2021-11-10)
+
+
+### Bug Fixes
+
+* staging/prod inputs ([9359c55](https://github.com/nbugden/gh-actions/commit/9359c559573310f0fcc3394412f1d1d28525c3a5))
+
 ### [3.1.2](https://github.com/nbugden/gh-actions/compare/3.1.1...3.1.2) (2021-11-10)
 
 
