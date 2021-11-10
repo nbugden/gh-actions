@@ -1,3 +1,31 @@
+### [3.1.1](https://github.com/nbugden/gh-actions/compare/3.1.0...3.1.1) (2021-11-10)
+
+
+### Bug Fixes
+
+* actions release type for stage/prod ([9e88c5f](https://github.com/nbugden/gh-actions/commit/9e88c5fdd26cbb1e174289c25e2030e1adc84dbf))
+* conditaional job deps ([5f3ff8e](https://github.com/nbugden/gh-actions/commit/5f3ff8eb46ef4fc9a9051375c8a27e67abd41a5e))
+* infra build deps ([077de57](https://github.com/nbugden/gh-actions/commit/077de57101db691896f85ca3858f33b4f6190735))
+* reference to input instead of env for conditional job ([a8bdb92](https://github.com/nbugden/gh-actions/commit/a8bdb92aa45d4c38d8be99d40762f0a0264d4746))
+* testing deploy uses param ([89f172a](https://github.com/nbugden/gh-actions/commit/89f172ab0dd668ff8422b14d0514720dbf4c8f0d))
+
+
+### Maintenance
+
+* test input for dynamic step name ([54e4520](https://github.com/nbugden/gh-actions/commit/54e45208234d287ef50d34cbbfc227608d4eca35))
+* update deploy env message ([6923b9c](https://github.com/nbugden/gh-actions/commit/6923b9ce266c06a334f039aadc6baa4ca48be645))
+
+
+### CI/CD
+
+* add clutch_env and env vars to build action ([7a0b951](https://github.com/nbugden/gh-actions/commit/7a0b951cf86f2d3454d17be97ed314871d227ca1))
+* add clutch_env to deploy jobs ([a69e99a](https://github.com/nbugden/gh-actions/commit/a69e99a0d6243882006e49092c0d276d3639acfe))
+* conditional job for test env only ([8769760](https://github.com/nbugden/gh-actions/commit/876976038674546740edfb98fdd0fb582e891e40))
+* set deploy env inputs/secrets ([7777544](https://github.com/nbugden/gh-actions/commit/7777544120b9fd990ece0b21ffd108261f1bdfde))
+* test reusable build yaml ([7cf057d](https://github.com/nbugden/gh-actions/commit/7cf057d9346d2ae1eca03fb24430f3636dc279a2))
+* update inputs/secets for build action ([0573e46](https://github.com/nbugden/gh-actions/commit/0573e469bc4e4ffc1569132375464b55135e7c3d))
+* update stage and prod to build workflow ([cf795ab](https://github.com/nbugden/gh-actions/commit/cf795ab38b45379d05b6b80e04948f95c5fecc24))
+
 ## [3.1.0](https://github.com/nbugden/gh-actions/compare/3.0.1...3.1.0) (2021-11-10)
 
 
