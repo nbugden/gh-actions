@@ -50,6 +50,22 @@ jobs:
         run: terraform -chdir=terraform plan
       - name: Terraform Apply
         run: terraform -chdir=terraform apply --auto-approve
+
+  conditional_step:
+    if: env.CLUTCH_ENV == 'test'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+      - name: Run conditional steps
+        run: echo "Conditional tf_workspace - $TF_WORKSPACE"
+    env:
+      TF_WORKSPACE: sandbox
+
   deploy:
     needs: infra
     runs-on: ubuntu-latest
