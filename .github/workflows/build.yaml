@@ -59,7 +59,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.ref }}
-      - name: Deploy to $CLUTCH_ENV environment
+      - name: Deploy to ${{ inputs.clutch_env }} environment
         run: |
           git branch;
           echo deploying to $CLUTCH_ENV;
