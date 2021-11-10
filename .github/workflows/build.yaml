@@ -1,0 +1,61 @@
+name: build
+
+on:
+  workflow_call:
+    # inputs:
+    #   terraform_version:
+    #     required: true
+    #     type: number
+    secrets:
+      github_token:
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+  infra:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_version: $TERRAFORM_VERSION
+      - name: Terraform Init
+        run: terraform -chdir=terraform init
+      - name: Terraform Plan
+        run: terraform -chdir=terraform plan
+      - name: Terraform Apply
+        run: terraform -chdir=terraform apply --auto-approve
+  deploy:
+    needs: infra
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+      - name: Deploy to testing environment
+        run: |
+          git branch;
+          echo deploying to test;
+
+env:
+  GITHUB_TOKEN: ${{ secrets.github_token }}
+  TERRAFORM_VERSION: 1.0.8
