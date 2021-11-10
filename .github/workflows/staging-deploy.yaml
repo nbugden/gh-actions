@@ -7,5 +7,7 @@ on:
 jobs:
   build:
     uses: nbugden/gh-actions/.github/workflows/build.yaml@main
+    with:
+      clutch_env: test
     secrets:
       github_token: ${{ secrets.GITHUB_TOKEN }}
