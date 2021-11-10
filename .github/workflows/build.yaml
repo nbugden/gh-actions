@@ -52,7 +52,7 @@ jobs:
         run: terraform -chdir=terraform apply --auto-approve
 
   conditional_step:
-    if: inputs.clutch_env == 'test'
+    if: ${{ github.event.inputs.clutch_env == 'test' }}
     needs: setup
     runs-on: ubuntu-latest
     steps:
