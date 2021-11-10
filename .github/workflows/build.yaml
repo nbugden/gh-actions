@@ -59,12 +59,13 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.ref }}
-      - name: Deploy to testing environment
+      - name: Deploy to $CLUTCH_ENV environment
         run: |
           git branch;
-          echo deploying to test;
+          echo deploying to $CLUTCH_ENV;
 
 env:
+  CLUTCH_ENV: ${{ inputs.clutch_env }}
   GITHUB_TOKEN: ${{ secrets.github_token }}
   TERRAFORM_VERSION: 1.0.8
   TF_WORKSPACE: ${{ inputs.clutch_env }}
