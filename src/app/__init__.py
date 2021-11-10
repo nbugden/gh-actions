@@ -11,11 +11,11 @@ def index():
     return "Demo app is live"
 
 
-# @app.route('/feature')
-# def feature():
-#     value = 1+1
-#     # return f"New feature: {value == 3}"
-#     return f"New feature: {value == 2}"
+@app.route('/feature')
+def feature():
+    value = 1+1
+    # return f"New feature: {value == 3}"
+    return f"New feature: {value == 2}"
 
 
 # @app.route('/feature2')
