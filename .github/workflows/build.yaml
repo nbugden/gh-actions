@@ -53,7 +53,7 @@ jobs:
 
   conditional_step:
     if: inputs.clutch_env == 'test'
-    needs: build
+    needs: setup
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
