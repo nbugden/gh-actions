@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  call-workflow-passing-data:
-    uses: octo-org/example-repo/.github/workflows/workflow-B.yml@main
+  build:
+    uses: nbugden/gh-actions/.github/workflows/build.yaml@main
     secrets:
       github_token: ${{ secrets.GITHUB_TOKEN }}
