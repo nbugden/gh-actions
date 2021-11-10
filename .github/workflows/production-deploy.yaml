@@ -9,5 +9,8 @@ jobs:
     uses: nbugden/gh-actions/.github/workflows/build.yaml@main
     with:
       clutch_env: test
+      aws_default_region: ca-central-1
     secrets:
       github_token: ${{ secrets.GITHUB_TOKEN }}
+      aws_access_key: ${{ secrets.DEV_AWS_ACCESS_KEY_ID }}
+      aws_secret_access_key: ${{ secrets.DEV_AWS_SECRET_ACCESS_KEY }}
