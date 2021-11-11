@@ -3,7 +3,7 @@
   "version": "3.5.0",
   "scripts": {
     "prerelease": "cross-env PRERELEASE=$(curl https://api.github.com/repos/nbugden/gh-actions/releases | jq '.[0].prerelease')",
-    "release": "npm run prerelease && if [[ $PRERELEASE = true ]]; then npm run release:stage -- --no-increment; else npm run release; fi",
+    "release": "npm run prerelease && if [[ $PRERELEASE = true ]]; then npm run release:stage -- --no-increment; else npm run release:stage; fi",
     "release:stage": "release-it --ci --dry-run",
     "release:prod": "release-it --ci --no-increment --no-github.preRelease",
     "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease && ./scripts/clean-up-hotfix.sh"
