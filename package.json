@@ -2,6 +2,7 @@
   "name": "data-platform",
   "version": "3.2.4",
   "scripts": {
+    "release": "release-it --ci --no-github.preRelease --no-github.release",
     "release:stage": "release-it --ci",
     "release:update-stage": "release-it --ci --github.update",
     "release:prod": "release-it --ci --no-github.preRelease --github.update",
