@@ -3,8 +3,8 @@
   "version": "3.2.3",
   "scripts": {
     "release:stage": "release-it --ci",
-    "release:update-stage": "release-it --ci --no-increment",
-    "release:prod": "release-it --ci --no-github.preRelease --no-increment",
+    "release:update-stage": "release-it --ci --github.update",
+    "release:prod": "release-it --ci --no-github.preRelease --github.update",
     "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease && ./scripts/clean-up-hotfix.sh"
   },
   "devDependencies": {
