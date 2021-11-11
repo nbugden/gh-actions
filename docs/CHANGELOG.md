@@ -5,6 +5,18 @@
 
 * create endpoint v2 ([#8](https://github.com/nbugden/gh-actions/issues/8)) ([b9b93d1](https://github.com/nbugden/gh-actions/commit/b9b93d16266003db253ff6ed6d95a6cfb0e254f7))
 
+
+### Maintenance
+
+* draft release v3.2.0 ([577e3ef](https://github.com/nbugden/gh-actions/commit/577e3ef37a5c67b32ab4e0fc898d66513c5c02d7))
+
+## [3.2.0](https://github.com/nbugden/gh-actions/compare/3.1.3...3.2.0) (2021-11-11)
+
+
+### Features
+
+* create endpoint v2 ([#8](https://github.com/nbugden/gh-actions/issues/8)) ([b9b93d1](https://github.com/nbugden/gh-actions/commit/b9b93d16266003db253ff6ed6d95a6cfb0e254f7))
+
 ### [3.1.3](https://github.com/nbugden/gh-actions/compare/3.1.2...3.1.3) (2021-11-10)
 
 
