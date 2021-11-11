@@ -1,11 +1,10 @@
 {
   "name": "data-platform",
-  "version": "3.3.2",
+  "version": "3.2.5",
   "scripts": {
     "release": "release-it --ci --no-github.preRelease --no-github.release",
-    "release:stage": "release-it --ci",
-    "release:update-stage": "release-it --ci --github.update",
-    "release:prod": "release-it --ci --no-github.preRelease --github.update",
+    "release:stage": "release-it --ci --no-increment --github.update",
+    "release:prod": "release-it --ci --no-increment --no-github.preRelease --github.update",
     "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease && ./scripts/clean-up-hotfix.sh"
   },
   "devDependencies": {
