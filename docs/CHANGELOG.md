@@ -1,3 +1,15 @@
+### [3.2.1](https://github.com/nbugden/gh-actions/compare/3.2.0...3.2.1) (2021-11-11)
+
+
+### Bug Fixes
+
+* app route 1 ([ba0b1f2](https://github.com/nbugden/gh-actions/commit/ba0b1f2b9d141156f872ffb88a7193e514d51dd4))
+
+
+### Maintenance
+
+* draft release v3.2.0 ([53f6dd0](https://github.com/nbugden/gh-actions/commit/53f6dd0de3f28e870ad66898976364cb3ad9df39))
+
 ## [3.2.0](https://github.com/nbugden/gh-actions/compare/3.1.3...3.2.0) (2021-11-11)
 
 
