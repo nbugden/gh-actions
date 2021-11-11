@@ -4,7 +4,7 @@
   "scripts": {
     "release": "export PRERELEASE=$(curl https://api.github.com/repos/nbugden/gh-actions/releases | jq '.[0].prerelease')&&npm run release:stage",
     "release:stage": "if [[ $PRERELEASE = true ]]; then release-it --ci --no-increment; else release-it --ci; fi",
-    "release:prod": "release-it --ci --no-increment --no-github.preRelease",
+    "release:prod": "release-it --ci --no-increment --github.update",
     "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease && ./scripts/clean-up-hotfix.sh"
   },
   "devDependencies": {

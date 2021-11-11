@@ -2,10 +2,6 @@
   "git": {
     "commitMessage": "chore: draft release v${version}"
   },
-  "github": {
-    "release": true,
-    "preRelease": true
-  },
   "npm": {
     "publish": false
   },
