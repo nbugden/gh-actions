@@ -27,6 +27,23 @@
 
 * package version ([e8ae624](https://github.com/nbugden/gh-actions/commit/e8ae624ed456441aa825efd3c2e61c0580d703a4))
 
+
+### Maintenance
+
+* draft release v3.4.0 ([b0d6507](https://github.com/nbugden/gh-actions/commit/b0d65078dd8c907d5d464eceff4f91dae0db6f65))
+
+## [3.4.0](https://github.com/nbugden/gh-actions/compare/3.3.2...3.4.0) (2021-11-11)
+
+
+### Features
+
+* npm release stage and prod ([e90fd0d](https://github.com/nbugden/gh-actions/commit/e90fd0d72b751a6dcb4fa6f18e8c4e2234924776))
+
+
+### Bug Fixes
+
+* package version ([e8ae624](https://github.com/nbugden/gh-actions/commit/e8ae624ed456441aa825efd3c2e61c0580d703a4))
+
 ### [3.3.2](https://github.com/nbugden/gh-actions/compare/3.3.1...3.3.2) (2021-11-11)
 
 ### [3.3.1](https://github.com/nbugden/gh-actions/compare/3.3.0...3.3.1) (2021-11-11)
