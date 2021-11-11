@@ -1,3 +1,10 @@
+### [3.2.4](https://github.com/nbugden/gh-actions/compare/3.2.3...3.2.4) (2021-11-11)
+
+
+### Bug Fixes
+
+* releas-it param github.update ([63eac58](https://github.com/nbugden/gh-actions/commit/63eac58933f51e2bf4a2175a287e29f76a62c7cf))
+
 ### [3.2.3](https://github.com/nbugden/gh-actions/compare/3.2.2...3.2.3) (2021-11-11)
 
 
