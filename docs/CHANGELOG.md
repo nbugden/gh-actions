@@ -1,3 +1,16 @@
+### [3.2.3](https://github.com/nbugden/gh-actions/compare/3.2.2...3.2.3) (2021-11-11)
+
+
+### Maintenance
+
+* draft release v3.2.2 ([cbd5ca9](https://github.com/nbugden/gh-actions/commit/cbd5ca9f05d15d6328af8bc5a3cf41c234dd8f61))
+* draft release v3.2.2 ([230a96c](https://github.com/nbugden/gh-actions/commit/230a96cdf791b9bfb6ccbd7ecdf1d85e61d3fd82))
+
+
+### CI/CD
+
+* update npm scripts ([e590017](https://github.com/nbugden/gh-actions/commit/e5900177338661309a702527ac597ef63aef05cf))
+
 ### [3.2.2](https://github.com/nbugden/gh-actions/compare/3.2.1...3.2.2) (2021-11-11)
 
 
