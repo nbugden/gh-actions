@@ -1,6 +1,6 @@
 {
   "name": "data-platform",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "scripts": {
     "release": "release-it --ci --no-github.preRelease --no-github.release",
     "release:stage": "release-it --ci --no-increment --github.update",
