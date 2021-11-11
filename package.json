@@ -2,7 +2,9 @@
   "name": "data-platform",
   "version": "3.2.2",
   "scripts": {
-    "release": "release-it --ci",
+    "release:stage": "release-it --ci",
+    "release:update-stage": "release-it --ci --no-increment",
+    "release:prod": "release-it --ci --no-github.preRelease --no-increment",
     "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease && ./scripts/clean-up-hotfix.sh"
   },
   "devDependencies": {
