@@ -66,6 +66,20 @@
 
 * draft release v3.4.0 ([556cfc2](https://github.com/nbugden/gh-actions/commit/556cfc2904289e98b15c6449d7b430c1e1bf96a4))
 * draft release v3.4.0 ([91158da](https://github.com/nbugden/gh-actions/commit/91158dac541af57f038e8e379bdd3efdf520f067))
+* draft release v3.5.0 ([c17d297](https://github.com/nbugden/gh-actions/commit/c17d2971c307eaba85159dd6979b9207549f3197))
+
+## [3.5.0](https://github.com/nbugden/gh-actions/compare/3.4.0...3.5.0) (2021-11-11)
+
+
+### Features
+
+* app route 1 ([e24c81e](https://github.com/nbugden/gh-actions/commit/e24c81e7a6a6753b7c84a3788c48759a036caf80))
+
+
+### Maintenance
+
+* draft release v3.4.0 ([556cfc2](https://github.com/nbugden/gh-actions/commit/556cfc2904289e98b15c6449d7b430c1e1bf96a4))
+* draft release v3.4.0 ([91158da](https://github.com/nbugden/gh-actions/commit/91158dac541af57f038e8e379bdd3efdf520f067))
 
 ## [3.4.0](https://github.com/nbugden/gh-actions/compare/3.3.2...3.4.0) (2021-11-11)
 
