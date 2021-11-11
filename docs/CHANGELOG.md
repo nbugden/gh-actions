@@ -7,6 +7,13 @@
 
 ### [3.2.2](https://github.com/nbugden/gh-actions/compare/3.2.1...3.2.2) (2021-11-11)
 
+
+### Maintenance
+
+* draft release v3.2.2 ([13a5c76](https://github.com/nbugden/gh-actions/commit/13a5c76a94d140867468b89d2b02dee56b1772d4))
+
+### [3.2.2](https://github.com/nbugden/gh-actions/compare/3.2.1...3.2.2) (2021-11-11)
+
 ### [3.2.1](https://github.com/nbugden/gh-actions/compare/3.2.0...3.2.1) (2021-11-11)
 
 
