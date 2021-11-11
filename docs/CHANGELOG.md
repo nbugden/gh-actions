@@ -1,3 +1,5 @@
+### [3.3.2](https://github.com/nbugden/gh-actions/compare/3.3.1...3.3.2) (2021-11-11)
+
 ### [3.3.1](https://github.com/nbugden/gh-actions/compare/3.3.0...3.3.1) (2021-11-11)
 
 ## [3.3.0](https://github.com/nbugden/gh-actions/compare/3.2.5...3.3.0) (2021-11-11)
