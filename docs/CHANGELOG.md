@@ -1,3 +1,10 @@
+### [3.2.5](https://github.com/nbugden/gh-actions/compare/3.2.4...3.2.5) (2021-11-11)
+
+
+### CI/CD
+
+* add more release-it ([42f2dee](https://github.com/nbugden/gh-actions/commit/42f2dee027a8553b5fcebb534c5fa9092f052eb7))
+
 ### [3.2.4](https://github.com/nbugden/gh-actions/compare/3.2.3...3.2.4) (2021-11-11)
 
 
