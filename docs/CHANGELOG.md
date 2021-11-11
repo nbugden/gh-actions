@@ -1,3 +1,10 @@
+## [3.3.0](https://github.com/nbugden/gh-actions/compare/3.2.5...3.3.0) (2021-11-11)
+
+
+### Features
+
+* remove v1/v2 routes in app ([75f98eb](https://github.com/nbugden/gh-actions/commit/75f98ebd173238d334a2258b4106833a83fc178d))
+
 ### [3.2.5](https://github.com/nbugden/gh-actions/compare/3.2.4...3.2.5) (2021-11-11)
 
 
