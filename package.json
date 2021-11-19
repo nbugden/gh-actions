@@ -2,14 +2,16 @@
   "name": "data-platform",
   "version": "3.5.0",
   "scripts": {
-    "release": "export PRERELEASE=$(curl https://api.github.com/repos/nbugden/gh-actions/releases | jq '.[0].prerelease')&&npm run release:stage",
-    "release:stage": "if [[ $PRERELEASE = true ]]; then release-it --ci --no-increment; else release-it --ci; fi",
-    "release:prod": "release-it --ci --no-increment --github.update",
+    "release": "standard-version",
+    "release-it": "export PRERELEASE=$(curl https://api.github.com/repos/nbugden/gh-actions/releases | jq '.[0].prerelease')&&npm run release:stage",
+    "release-it:stage": "if [[ $PRERELEASE = true ]]; then release-it --ci --no-increment; else release-it --ci; fi",
+    "release-it:prod": "release-it --ci --no-increment --github.update",
     "hotfix": "./scripts/hotfix.sh && release-it --ci --no-github.preRelease && ./scripts/clean-up-hotfix.sh"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^3.3.0",
     "cross-env": "^7.0.3",
-    "release-it": "^14.11.6"
+    "release-it": "^14.11.6",
+    "standard-version": "^9.3.2"
   }
 }
